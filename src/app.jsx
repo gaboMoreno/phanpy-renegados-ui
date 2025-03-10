@@ -490,7 +490,7 @@ function Root({ isLoggedIn }) {
   if (isLoggedIn) {
     __BENCHMARK.end('time-to-isLoggedIn');
   }
-  return isLoggedIn ? <Home /> : <Welcome />;
+  return isLoggedIn ? <Home /> : <Login />;
 }
 
 const PrimaryRoutes = memo(({ isLoggedIn }) => {
@@ -504,7 +504,7 @@ const PrimaryRoutes = memo(({ isLoggedIn }) => {
     <Routes location={nonRootLocation || location}>
       <Route path="/" element={<Root isLoggedIn={isLoggedIn} />} />
       <Route path="/login" element={<Login />} />
-      <Route path="/welcome" element={<Welcome />} />
+      <Route path="/welcome" element={<Login />} />
     </Routes>
   );
 });

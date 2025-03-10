@@ -210,7 +210,7 @@ msgstr ""
 #: src/pages/catchup.jsx:72
 #: src/pages/catchup.jsx:1447
 #: src/pages/catchup.jsx:2070
-#: src/pages/settings.jsx:1151
+#: src/pages/settings.jsx:1063
 msgid "Boosts"
 msgstr ""
 
@@ -1378,7 +1378,7 @@ msgstr ""
 #: src/pages/home.jsx:225
 #: src/pages/mentions.jsx:21
 #: src/pages/mentions.jsx:168
-#: src/pages/settings.jsx:1143
+#: src/pages/settings.jsx:1055
 #: src/pages/trending.jsx:382
 msgid "Mentions"
 msgstr ""
@@ -1417,7 +1417,7 @@ msgstr ""
 #: src/pages/catchup.jsx:2064
 #: src/pages/favourites.jsx:12
 #: src/pages/favourites.jsx:24
-#: src/pages/settings.jsx:1147
+#: src/pages/settings.jsx:1059
 msgid "Likes"
 msgstr ""
 
@@ -1456,8 +1456,6 @@ msgid "Accounts…"
 msgstr ""
 
 #: src/components/nav-menu.jsx:321
-#: src/pages/login.jsx:27
-#: src/pages/login.jsx:190
 #: src/pages/status.jsx:837
 #: src/pages/welcome.jsx:65
 msgid "Log in"
@@ -1892,7 +1890,6 @@ msgstr ""
 #: src/components/shortcuts-settings.jsx:75
 #: src/components/shortcuts-settings.jsx:84
 #: src/components/shortcuts-settings.jsx:122
-#: src/pages/login.jsx:194
 msgid "Instance"
 msgstr ""
 
@@ -2468,7 +2465,7 @@ msgid "<0/> <1/> boosted"
 msgstr ""
 
 #: src/components/timeline.jsx:455
-#: src/pages/settings.jsx:1171
+#: src/pages/settings.jsx:1083
 msgid "New posts"
 msgstr ""
 
@@ -2549,7 +2546,6 @@ msgstr "Login required."
 #: src/compose.jsx:91
 #: src/pages/annual-report.jsx:164
 #: src/pages/http-route.jsx:91
-#: src/pages/login.jsx:271
 msgid "Go home"
 msgstr ""
 
@@ -3262,35 +3258,6 @@ msgstr ""
 msgid "No lists yet."
 msgstr ""
 
-#: src/pages/login.jsx:110
-#: src/pages/login.jsx:123
-msgid "Failed to register application"
-msgstr "Failed to register application"
-
-#: src/pages/login.jsx:209
-msgid "instance domain"
-msgstr "instance domain"
-
-#: src/pages/login.jsx:233
-msgid "e.g. “mastodon.social”"
-msgstr ""
-
-#: src/pages/login.jsx:244
-msgid "Failed to log in. Please try again or try another instance."
-msgstr ""
-
-#: src/pages/login.jsx:256
-msgid "Continue with {selectedInstanceText}"
-msgstr ""
-
-#: src/pages/login.jsx:257
-msgid "Continue"
-msgstr ""
-
-#: src/pages/login.jsx:265
-msgid "Don't have an account? Create one!"
-msgstr ""
-
 #: src/pages/mentions.jsx:21
 msgid "Private mentions"
 msgstr ""
@@ -3342,7 +3309,7 @@ msgid "{0, plural, one {Announcement} other {Announcements}}"
 msgstr ""
 
 #: src/pages/notifications.jsx:654
-#: src/pages/settings.jsx:1159
+#: src/pages/settings.jsx:1071
 msgid "Follow requests"
 msgstr ""
 
@@ -3712,91 +3679,75 @@ msgstr ""
 msgid "About"
 msgstr ""
 
-#: src/pages/settings.jsx:740
-msgid "<0>Built</0> by <1>@cheeaun</1>"
-msgstr ""
-
-#: src/pages/settings.jsx:769
-msgid "Sponsor"
-msgstr ""
-
-#: src/pages/settings.jsx:777
-msgid "Donate"
-msgstr "Donate"
-
-#: src/pages/settings.jsx:789
-msgid "Privacy Policy"
-msgstr ""
-
 #. placeholder {0}: WEBSITE.replace(/https?:\/\//g, '').replace(/\/$/, '')
-#: src/pages/settings.jsx:796
+#: src/pages/settings.jsx:708
 msgid "<0>Site:</0> {0}"
 msgstr ""
 
 #. placeholder {0}: !__FAKE_COMMIT_HASH__ && ( <span class="ib insignificant"> ( <a href={`https://github.com/cheeaun/phanpy/commit/${__COMMIT_HASH__}`} target="_blank" rel="noopener" > <RelativeTime datetime={new Date(__BUILD_TIME__)} /> </a> ) </span> )
-#: src/pages/settings.jsx:803
+#: src/pages/settings.jsx:715
 msgid "<0>Version:</0> <1/> {0}"
 msgstr ""
 
-#: src/pages/settings.jsx:818
+#: src/pages/settings.jsx:730
 msgid "Version string copied"
 msgstr ""
 
-#: src/pages/settings.jsx:821
+#: src/pages/settings.jsx:733
 msgid "Unable to copy version string"
 msgstr ""
 
-#: src/pages/settings.jsx:1056
-#: src/pages/settings.jsx:1061
+#: src/pages/settings.jsx:968
+#: src/pages/settings.jsx:973
 msgid "Failed to update subscription. Please try again."
 msgstr ""
 
-#: src/pages/settings.jsx:1067
+#: src/pages/settings.jsx:979
 msgid "Failed to remove subscription. Please try again."
 msgstr ""
 
-#: src/pages/settings.jsx:1074
+#: src/pages/settings.jsx:986
 msgid "Push Notifications (beta)"
 msgstr ""
 
-#: src/pages/settings.jsx:1096
+#: src/pages/settings.jsx:1008
 msgid "Push notifications are blocked. Please enable them in your browser settings."
 msgstr ""
 
 #. placeholder {0}: [ { value: 'all', label: t`anyone`, }, { value: 'followed', label: t`people I follow`, }, { value: 'follower', label: t`followers`, }, ].map((type) => ( <option value={type.value}>{type.label}</option> ))
-#: src/pages/settings.jsx:1105
+#: src/pages/settings.jsx:1017
 msgid "Allow from <0>{0}</0>"
 msgstr ""
 
-#: src/pages/settings.jsx:1114
+#: src/pages/settings.jsx:1026
 msgid "anyone"
 msgstr ""
 
-#: src/pages/settings.jsx:1118
+#: src/pages/settings.jsx:1030
 msgid "people I follow"
 msgstr ""
 
-#: src/pages/settings.jsx:1122
+#: src/pages/settings.jsx:1034
 msgid "followers"
 msgstr ""
 
-#: src/pages/settings.jsx:1155
+#: src/pages/settings.jsx:1067
 msgid "Follows"
 msgstr ""
 
-#: src/pages/settings.jsx:1163
+#: src/pages/settings.jsx:1075
 msgid "Polls"
 msgstr ""
 
-#: src/pages/settings.jsx:1167
+#: src/pages/settings.jsx:1079
 msgid "Post edits"
 msgstr ""
 
-#: src/pages/settings.jsx:1188
+#: src/pages/settings.jsx:1100
 msgid "Push permission was not granted since your last login. You'll need to <0><1>log in</1> again to grant push permission</0>."
 msgstr ""
 
-#: src/pages/settings.jsx:1204
+#: src/pages/settings.jsx:1116
 msgid "NOTE: Push notifications only work for <0>one account</0>."
 msgstr ""
 
